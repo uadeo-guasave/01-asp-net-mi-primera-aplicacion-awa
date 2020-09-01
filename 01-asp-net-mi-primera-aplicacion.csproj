@@ -5,4 +5,8 @@
     <RootNamespace>_01_asp_net_mi_primera_aplicacion</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+  </ItemGroup>
+
 </Project>
