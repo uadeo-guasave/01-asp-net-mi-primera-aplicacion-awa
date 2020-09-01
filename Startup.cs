@@ -32,7 +32,7 @@ namespace _01_asp_net_mi_primera_aplicacion
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hola Mundo!");
                 });
             });
         }
